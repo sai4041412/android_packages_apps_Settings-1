@@ -240,6 +240,14 @@
             android:key="android.theme.customization.icon_pack.android"
             android:title="@string/theme_customization_icon_pack_android_title"/>
 
+	<Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        </Preference>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
