@@ -140,4 +140,7 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
 
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Color bucket</string>
+
 </resources>
