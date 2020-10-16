@@ -98,6 +98,14 @@
         android:order="-138"
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
+    <!-- Volume panel tuner -->
+          <Preference
+            android:key="expanded_volume_panel"
+            android:title="@string/audio_panel_view_title"
+            android:summary="@string/audio_panel_view_summary"
+                android:fragment="com.android.settings.panel.ExpandedVolumePanel" />
+
+
     <!-- Also vibrate for calls -->
     <Preference
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
