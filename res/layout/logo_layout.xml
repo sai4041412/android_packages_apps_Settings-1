@@ -24,7 +24,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="256dp" 
+        android:layout_height="150p" 
         android:src="@drawable/logo"
         android:scaleType="centerInside"
         android:layout_marginTop="2dp"
